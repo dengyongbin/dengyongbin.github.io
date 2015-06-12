@@ -12,16 +12,14 @@ description: laravel 自定义分页组件的实现，显示首页、尾页、�
 
 ## 代码片段      
 
-```html
+```html      
 <div id="kkpager">
    // $param为其他查询参数，数组类型，在views目录新建page.blade.php页面
    {{ $borrow_list->appends($param)->links('web.page') }}
 </div>
-
+       
 <?php
-
 $presenter = new Illuminate\Pagination\BootstrapPresenter($paginator);
-
 ?>
 <span class="infoTextAndGoPageBtnWrap">
     <span class="totalText">
@@ -42,6 +40,6 @@ $presenter = new Illuminate\Pagination\BootstrapPresenter($paginator);
     @else
         <span class="disabled">尾页</span>
     @endif
-</span>
+</span>      
 ```
 
