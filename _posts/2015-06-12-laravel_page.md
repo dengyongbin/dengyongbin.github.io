@@ -16,7 +16,7 @@ description: laravel 自定义分页组件的实现，显示首页、尾页、�
 ## 使用laravel的links方法产生分页代码，自定义page视图
 ```php
 <div id="kkpager">
-	  {{ $borrow_list->appends($param)->links('web.page') }}
+	  <?php $borrow_list->appends($param)->links('web.page'); ?>
 </div>
 ```
 
