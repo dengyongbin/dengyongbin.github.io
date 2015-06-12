@@ -51,3 +51,123 @@ $presenter = new Illuminate\Pagination\BootstrapPresenter($paginator);
 </span>
 ```
 
+## css样式代码
+```css
+#kkpager{
+	height:100px;
+	color:#999;
+	font-size:16px;
+	text-align:center;
+}
+#kkpager a, #kkpager span{ display:inline-block;}
+#kkpager a{
+	height:22px;
+	line-height:22px;
+	float:left;
+	border:1px solid #ccc;
+	display:inline;
+	padding:3px 10px 3px 10px;
+	margin-right:5px;
+	border-radius:16px;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	cursor: pointer;
+	background: #fff;
+	text-decoration:none;
+	color:#999;
+}
+
+#kkpager span.disabled{
+	height: 22px;
+	line-height: 22px;
+	float: left;
+	display: inline;
+	padding: 3px 10px 3px 10px;
+	margin-right: 5px;
+	border-radius:16px;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border:1px solid #DFDFDF;
+	background-color:#FFF;
+	color:#DFDFDF;
+}
+#kkpager span.curr{
+	height:22px;
+	line-height:22px;
+	float:left;
+	display: inline;
+	padding:3px 10px 3px 10px;
+	margin-right:5px;
+	border-radius:16px;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	background:#45d1af;
+	color:#fff;
+}
+#kkpager span.normalsize{
+}
+#kkpager_gopage_wrap{
+	position:relative;
+	left:0px;
+	top:0px;
+}
+#kkpager_btn_go {
+	width:44px;
+	height:18px;
+	border:0px;
+	overflow:hidden;
+	line-height:140%;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	cursor:pointer;
+	background-color:#FF6600;
+	color:#FFF;
+	position:absolute;
+	left:0px;
+	top:-2px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	display:none;
+}
+#kkpager_btn_go_input{
+	width:36px;
+	height:14px;
+	color:#999;
+	text-align:center;
+	margin-left:1px;
+	margin-right:1px;
+	border:1px solid #DFDFDF;
+	position:relative;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	left:0px;
+	top:0px;
+	outline:none;
+}
+#kkpager_btn_go_input.focus{
+	border-color:#FF6600;
+}
+
+#kkpager .pageBtnWrap{
+	width:auto;
+	height:50px;
+    margin-top:30px;
+}
+
+#kkpager .spanDot{
+	margin-right:5px;
+}
+#kkpager .currPageNum{
+	color:#FD7F4D;
+}
+
+#kkpager .infoTextAndGoPageBtnWrap{
+	display:inline-block;
+	line-height:90px;
+	padding-right:10px;
+	vertical-align: top;
+}
+```
+
+
