@@ -20,6 +20,15 @@ description: laravel 自定义分页组件的实现，显示首页、尾页、�
 </div>
 ```
 
+```js
+	function fancyAlert(arg) {
+	  if(arg) {
+	    $.facebox({div:'#foo'})
+	  }
+
+	}
+	```
+
 ```php
 <?php
 $presenter = new Illuminate\Pagination\BootstrapPresenter($paginator);
