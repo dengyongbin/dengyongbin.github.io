@@ -17,9 +17,8 @@ description: laravel 自定义分页组件的实现，显示首页、尾页、�
 ```js
 	<div id="kkpager">
 	  <?php $borrow_list->appends($param)->links('web.page'); ?>
-</div>
-	```
-
+	</div>
+```
 
 ## page视图代码
 ```php
@@ -47,5 +46,4 @@ $presenter = new Illuminate\Pagination\BootstrapPresenter($paginator);
     @endif
 </span>
 ```
-
 
